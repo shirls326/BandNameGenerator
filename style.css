@@ -1,0 +1,97 @@
+body {
+	background: rgb(182,28,173);
+  background: linear-gradient(0deg, rgba(182,28,173,1) 0%, rgba(216,102,39,1) 50%, rgba(106,45,253,1) 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+/* 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+h1 {
+  color: #F2F2F2;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 200px;
+	height: 20px;
+	padding-left: 5px;
+/* 	opacity: 55%; */
+	border: 2px;  
+	border-color: #d1b8b8;
+	border-style: solid;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+/*     border: 10px solid rgb(158, 172, 173); */
+	background-color: rgb(236, 234, 246,.3);
+	border-radius: 20px;
+	border-width: 50;
+  margin-top: 50px;
+/* 	min-height: 500px; */
+	padding: 0 10px 0 10px;
+	width: 300px;
+}
+
+#submit {
+/* 	background-color:rgb(90, 150, 150); */
+	background-image: url("bg.jpg");
+	background-size: 100%;
+	background-position: center;
+	font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin: 15px;
+  width: 150px;
+  
+}
+
+#submit:hover {
+	cursor: pointer;
+  transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+#output {
+	color: #F2F2F2;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#credits {
+	transition: transform .7s ease-in-out;
+}
+
+#credits:hover {
+  transform: rotate(360deg);
+}
